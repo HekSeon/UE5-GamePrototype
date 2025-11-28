@@ -2,7 +2,7 @@
 
 # <p align="center"> \&nbsp;<b>Unreal Engine・C++・プロトタイプ / 個人学習プロジェクト</b><br> UE5 の C++ 機能、マップロジック、ゲームプレイシステムを検証するためのテストプロジェクト </p> <p align="center"> <img src="https://img.shields.io/badge/Engine-Unreal\_Engine-000000?logo=unrealengine\&style=for-the-badge"> <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?logo=c%2B%2B\&style=for-the-badge"> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"> </p>
 
-# 🎮 プロジェクト概要 / Project Overview
+# \##🎮 プロジェクト概要 / Project Overview
 
 # 
 
@@ -14,9 +14,9 @@
 
 # 
 
-# 🧩 主な特徴 / Key Features
+# \##🧩 主な特徴 / Key Features
 
-# 🧱 1. C++ クラスの検証
+# \##🧱 1. C++ クラスの検証
 
 # 
 
@@ -32,7 +32,7 @@
 
 # 
 
-# 🗺️ 2. マップロジックのテスト
+# \##🗺️ 2. マップロジックのテスト
 
 # 
 
@@ -48,7 +48,7 @@
 
 # 
 
-# ⚙️ 3. 外部プラグインの統合
+# \##⚙️ 3. 外部プラグインの統合
 
 # 
 
@@ -60,7 +60,7 @@
 
 # 
 
-# 🛠 使用技術 / Tech Stack
+# \##🛠 使用技術 / Tech Stack
 
 # 分類	内容
 
@@ -120,7 +120,7 @@
 
 # 
 
-# 👤 作者 / Author
+# \##👤 作者 / Author
 
 # 
 
