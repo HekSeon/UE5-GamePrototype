@@ -24,7 +24,7 @@ protected:
 
 private:
 	UPROPERTY(EditAnywhere, Category = "AI")
-	UBehaviorTree* BehaviorTree;
+	TObjectPtr<UBehaviorTree> BehaviorTree;
 
 	UPROPERTY(EditAnywhere, Category = "AI")
 	UBlackboardData* BlackboardData;
