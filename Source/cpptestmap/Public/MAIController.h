@@ -17,7 +17,7 @@ class CPPTESTMAP_API AMAIController : public AAIController
 	GENERATED_BODY()
 
 public:
-	explicit AMAIController(FObjectInitializer const& ObjectInitiliazer);
+	AMAIController(FObjectInitializer const& ObjectInitializer);
 
 protected:
 	virtual void OnPossess(APawn* InPawn) override;

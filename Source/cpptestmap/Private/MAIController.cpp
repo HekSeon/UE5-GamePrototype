@@ -4,7 +4,11 @@
 #include "MAIController.h"
 #include "AICharacter.h"
 
-
+AMAIController::AMAIController(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
+{
+	
+}
 void AMAIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
