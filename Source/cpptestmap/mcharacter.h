@@ -20,10 +20,10 @@
 #include "WeaponSystem.h"
 #include "InputActionValue.h"
 #include "mcharacter.generated.h"
-
+#define LOCTEXT_NAMESPACE "Input"
 class UHealthComponent;
 
-UCLASS()
+UCLASS(Blueprintable, ClassGroup = (Input))
 class CPPTESTMAP_API AMCharacter : public ACharacter
 {
 	GENERATED_BODY()
