@@ -27,7 +27,7 @@ private:
 	TObjectPtr<UBehaviorTree> BehaviorTree;
 
 	UPROPERTY(EditAnywhere, Category = "AI")
-	UBlackboardData* BlackboardData;
+	TObjectPtr<UBlackboardData> BlackboardData;
 
 	void SetupPerception();
 	

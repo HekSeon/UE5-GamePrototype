@@ -22,6 +22,8 @@
 #include "mcharacter.generated.h"
 #define LOCTEXT_NAMESPACE "Input"
 class UHealthComponent;
+class UInputAction;
+class UInputMappingContext;
 
 UCLASS(Blueprintable, ClassGroup = (Input))
 class CPPTESTMAP_API AMCharacter : public ACharacter
@@ -57,28 +59,28 @@ protected:
 	
 	
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Input")
-	class UInputMappingContext* InputMapping;
+	TObjectPtr<UInputMappingContext> InputMapping;
 	
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* JumpAction;
+	TObjectPtr<UInputAction> JumpAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* SprintAction;
+	TObjectPtr<UInputAction> SprintAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* FireAction;
+	TObjectPtr<UInputAction> FireAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* RealodAction;
+	TObjectPtr<UInputAction> RealodAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* IntaractAction;
+	TObjectPtr<UInputAction> IntaractAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* MoveFAction;
+	TObjectPtr<UInputAction> MoveFAction;
 
 	UPROPERTY(EditAnywhere,BlueprintReadOnly,Category="Input")
-	class UInputAction* MoveRAction;
+	TObjectPtr<UInputAction> MoveRAction;
 
 	UPROPERTY(VisibleAnywhere,BlueprintReadOnly)
 	class UCameraComponent* yarrak;

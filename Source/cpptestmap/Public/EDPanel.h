@@ -30,9 +30,9 @@ protected:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* PanelMesh;
+	TObjectPtr<UStaticMeshComponent> PanelMesh;
 	
-	UMaterialInstanceDynamic* DynamicMat;
+	TObjectPtr<UMaterialInstanceDynamic> DynamicMat;
 
 	UPROPERTY(EditAnywhere,Category="Panel")
 	float BlinkSpeed=3.f;
@@ -47,6 +47,6 @@ public:
 	void Interect();
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Panel")
-	class AEDoor* LinkedDoor;
+	TObjectPtr<AEDoor> LinkedDoor;
 	
 };
