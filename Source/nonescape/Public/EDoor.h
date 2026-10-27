@@ -14,7 +14,7 @@
 #include "EDoor.generated.h"
 
 UCLASS()
-class CPPTESTMAP_API AEDoor : public AActor
+class NONESCAPE_API AEDoor : public AActor
 {
 	GENERATED_BODY()
 	
@@ -26,16 +26,16 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* LeftDoor;
+	TObjectPtr< UStaticMeshComponent > LeftDoor;
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* RightDoor;
+	TObjectPtr< UStaticMeshComponent > RightDoor;
 
 	UPROPERTY()
-	UTimelineComponent* DoorTimeline;
+	TObjectPtr< UTimelineComponent > DoorTimeline;
 
 	UPROPERTY(EditAnywhere,Category="Door")
-	UCurveFloat* DoorCurve;
+	TObjectPtr<UCurveFloat> DoorCurve;
 
 	FOnTimelineFloat DoorProgress;
 

@@ -26,13 +26,13 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(VisibleAnywhere)
-	UStaticMeshComponent* ElevatorMesh;
+	TObjectPtr<UStaticMeshComponent> ElevatorMesh;
 
 	UPROPERTY(VisibleAnywhere, Category="Elevator")
-	UTimelineComponent* ElevatorTimeline;
+	TObjectPtr<UTimelineComponent> ElevatorTimeline;
 	
 	UPROPERTY(EditAnywhere, Category="Elevator")
-	UCurveFloat* ElevatorCurve;
+	TObjectPtr<UCurveFloat> ElevatorCurve;
 	
 	FVector StartLocation;
 	UPROPERTY(EditAnywhere, Category="Elevator")

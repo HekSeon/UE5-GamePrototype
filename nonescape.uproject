@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{07EB300A-4AE7-11EC-2BC0-E38924923FB4}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "nonescape",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": false
+		},
+		{
+			"Name": "BlockoutToolsPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "ElectronicNodes",
+			"Enabled": false
+		},
+		{
+			"Name": "DarkerNodes",
+			"Enabled": false
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
